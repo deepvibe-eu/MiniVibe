@@ -16,7 +16,19 @@ La famille _Vibe_ propose une application dédiée par fournisseur (DeepVibe pou
 
 ## Téléchargements
 
-Les installateurs pour macOS, Windows et Linux sont publiés dans [Releases](../../releases). Le programme de mise à jour intégré vérifie ce dépôt.
+Les installateurs pour macOS, Windows et Linux sont disponibles sur la [page des versions](../../releases) ; la version la plus récente est toujours étiquetée **latest** :
+
+| Plateforme | Fichiers |
+| --- | --- |
+| macOS (Apple Silicon) | `MiniVibe-<version>-mac-arm64.dmg` · `MiniVibe-<version>-mac-arm64.zip` |
+| Windows | `MiniVibe-<version>-win-x64.exe` |
+| Linux | `MiniVibe-<version>-linux-x86_64.AppImage` · `MiniVibe-<version>-linux-amd64.deb` · `MiniVibe-<version>-linux-x86_64.rpm` · `MiniVibe-<version>-linux-x64.pkg.tar.zst` |
+
+Chaque application de la famille *Vibe* est publiée avec le **même numéro de version** (actuellement 1.0.3). Le programme de mise à jour intégré vérifie la dernière version de ce dépôt.
+
+> **macOS (Apple Silicon) :** la version est **non signée** (pas de programme Apple Developer payant), donc Gatekeeper
+> avertit au premier lancement. L'application est signée ad hoc — ouvrez-la une fois via **clic droit → Ouvrir**, ou exécutez
+> `xattr -dr com.apple.quarantine "/Applications/MiniVibe.app"`.
 
 ## Compilation depuis les sources
 
@@ -32,4 +44,4 @@ ZCODE_MINI_IDENTITY=1 pnpm bundle:desktop -- --os linux --arch x64
 
 ## Licence et attribution
 
-Basé sur ZCode (Apache-2.0) ; la licence et le fichier NOTICE sont conservés. MiniVibe est un projet indépendant et n'est affilié ni à ZCode/Z.ai ni à MiniMax. MiniMax est une marque déposée de son propriétaire ; le logo est utilisé avec l'autorisation de l'exploitant.
+Basé sur ZCode (Apache-2.0) ; la licence et le NOTICE sont conservés. MiniVibe est un projet indépendant et n'est pas affilié à ZCode/Z.ai ni à MiniMax. MiniMax est une marque de son propriétaire ; le logo est utilisé avec l'autorisation de l'exploitant.

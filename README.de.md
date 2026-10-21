@@ -3,7 +3,7 @@
 # MiniVibe
 
 <div align="center">
-  <img src="packages/desktop/build/README-images/MiniVibe.png" alt="MiniVibe screenshot" width="auto" />
+  <img src="packages/desktop/build/README-images/MiniVibe.png" alt="MiniVibe-Screenshot" width="auto" />
 </div>
 
 <p align="center">
@@ -16,7 +16,7 @@ Die _Vibe_-Familie liefert eine fokussierte App pro Anbieter (DeepVibe für Deep
 
 ## Downloads
 
-Installer für macOS, Windows und Linux findest du auf der [Releases-Seite](../../releases); das neueste Release ist immer mit **latest** getaggt:
+Installationsprogramme für macOS, Windows und Linux findest du auf der [Releases-Seite](../../releases); die neueste Version ist immer mit **latest** getaggt:
 
 | Plattform | Dateien |
 | --- | --- |
@@ -24,10 +24,10 @@ Installer für macOS, Windows und Linux findest du auf der [Releases-Seite](../.
 | Windows | `MiniVibe-<version>-win-x64.exe` |
 | Linux | `MiniVibe-<version>-linux-x86_64.AppImage` · `MiniVibe-<version>-linux-amd64.deb` · `MiniVibe-<version>-linux-x86_64.rpm` · `MiniVibe-<version>-linux-x64.pkg.tar.zst` |
 
-Jede App der *Vibe*-Familie wird mit der **gleichen Versionsnummer** veröffentlicht (derzeit 1.0.5). Der integrierte Updater prüft das neueste Release dieses Repositorys.
+Jede App der *Vibe*-Familie wird mit der **gleichen Versionsnummer** veröffentlicht (derzeit 1.0.5). Der integrierte Updater prüft die neueste Version dieses Repositorys.
 
-> **macOS (Apple Silicon):** Der Build ist **unsigniert** (kein kostenpflichtiges Apple Developer Program), daher warnt Gatekeeper
-> beim ersten Start. Die App ist ad-hoc signiert — öffne sie einmal über **Rechtsklick → Öffnen** oder führe
+> **macOS (Apple Silicon):** Der Build ist **unsigniert** (kein kostenpflichtiges Apple Developer Program), daher warnt
+> Gatekeeper beim ersten Start. Die App ist ad-hoc signiert — öffne sie einmal über **Rechtsklick → Öffnen** oder führe
 > `xattr -dr com.apple.quarantine "/Applications/MiniVibe.app"` aus.
 
 ## Aus dem Quellcode bauen
@@ -44,4 +44,4 @@ ZCODE_MINI_IDENTITY=1 pnpm bundle:desktop -- --os linux --arch x64
 
 ## Lizenz & Namensnennung
 
-Basiert auf ZCode (Apache-2.0); die Lizenz und der NOTICE-Hinweis bleiben erhalten. MiniVibe ist ein unabhängiges Projekt und steht in keiner Verbindung zu ZCode/Z.ai oder MiniMax. MiniMax ist eine Marke ihres Inhabers; das Logo wird mit Erlaubnis des Betreibers verwendet.
+Basiert auf ZCode (Apache-2.0); die Lizenz und die NOTICE bleiben erhalten. MiniVibe ist ein unabhängiges Projekt und steht in keiner Verbindung zu ZCode/Z.ai oder MiniMax. MiniMax ist eine Marke ihres Inhabers; das Logo wird mit Erlaubnis des Betreibers verwendet.

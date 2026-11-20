@@ -12,11 +12,11 @@
 
 MiniVibe ist der **MiniMax-Build** der _Vibe_-Familie — ein Fork von ZCode, der sich auf einen einzigen Anbieter konzentriert: **MiniMax**. Ein Modell, ein Arbeitsbereich, ein Partner — kein Agent.
 
-Die _Vibe_-Familie liefert eine fokussierte App pro Anbieter (DeepVibe für DeepSeek, KimiVibe für Kimi, LamaVibe für Ollama, MiniVibe für MiniMax, …), jede mit ihrem eigenen Charakter. Sie existiert **neben** ZCode, nicht an dessen Stelle: ZCode für den Multi-Provider-Workflow, die Vibe-Apps für Menschen, die ein Modell, einen Arbeitsbereich, einen Partner wollen. Den vollständigen Codebestand findest du im Hauptquellcode-Repository.
+Die _Vibe_-Familie liefert eine fokussierte App pro Anbieter (DeepVibe für DeepSeek, KimiVibe für Kimi, LamaVibe für Ollama, MiniVibe für MiniMax, …), jede mit ihrem eigenen Charakter. Sie existiert **neben** ZCode, nicht an dessen Stelle: ZCode für den Multi-Provider-Workflow, die Vibe-Apps für alle, die ein Modell, einen Arbeitsbereich, einen Partner wollen. Den vollständigen Codebestand findest du im Hauptquellcode-Repository.
 
 ## Downloads
 
-Installationsprogramme für macOS, Windows und Linux findest du auf der [Releases-Seite](../../releases); die neueste Version ist immer mit **latest** getaggt:
+Installer für macOS, Windows und Linux findest du auf der [Releases-Seite](../../releases); das neueste Release ist immer mit **latest** getaggt:
 
 | Plattform | Dateien |
 | --- | --- |
@@ -24,7 +24,7 @@ Installationsprogramme für macOS, Windows und Linux findest du auf der [Release
 | Windows | `MiniVibe-<version>-win-x64.exe` |
 | Linux | `MiniVibe-<version>-linux-x86_64.AppImage` · `MiniVibe-<version>-linux-amd64.deb` · `MiniVibe-<version>-linux-x86_64.rpm` · `MiniVibe-<version>-linux-x64.pkg.tar.zst` |
 
-Jede App der *Vibe*-Familie wird mit der **gleichen Versionsnummer** veröffentlicht (derzeit 1.0.8). Der integrierte Updater prüft die neueste Version dieses Repositorys.
+Jede App der *Vibe*-Familie wird mit der **gleichen Versionsnummer** veröffentlicht (derzeit 1.0.8). Der integrierte Updater prüft das neueste Release dieses Repositorys.
 
 > **macOS (Apple Silicon):** Der Build ist **unsigniert** (kein kostenpflichtiges Apple Developer Program), daher warnt
 > Gatekeeper beim ersten Start. Die App ist ad-hoc signiert — öffne sie einmal über **Rechtsklick → Öffnen** oder führe

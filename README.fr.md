@@ -44,4 +44,4 @@ ZCODE_MINI_IDENTITY=1 pnpm bundle:desktop -- --os linux --arch x64
 
 ## Licence et attribution
 
-Basé sur ZCode (Apache-2.0) ; la licence et le NOTICE sont conservés. MiniVibe est un projet indépendant et n'est affilié ni à ZCode/Z.ai ni à MiniMax. MiniMax est une marque de son propriétaire ; le logo est utilisé avec l'autorisation de l'exploitant.
+Basé sur ZCode (Apache-2.0) ; la licence et le fichier NOTICE sont conservés. MiniVibe est un projet indépendant et n'est affilié ni à ZCode/Z.ai ni à MiniMax. MiniMax est une marque de son propriétaire ; le logo est utilisé avec l'autorisation de l'exploitant.

@@ -24,7 +24,7 @@ Los instaladores para macOS, Windows y Linux están en la [página de releases](
 | Windows | `MiniVibe-<version>-win-x64.exe` |
 | Linux | `MiniVibe-<version>-linux-x86_64.AppImage` · `MiniVibe-<version>-linux-amd64.deb` · `MiniVibe-<version>-linux-x86_64.rpm` · `MiniVibe-<version>-linux-x64.pkg.tar.zst` |
 
-Cada aplicación de la familia *Vibe* se publica con el **mismo número de versión** (actualmente 1.0.5). El actualizador integrado comprueba la última versión de este repositorio.
+Cada aplicación de la familia *Vibe* se publica con el **mismo número de versión** (actualmente 1.0.8). El actualizador integrado comprueba la última versión de este repositorio.
 
 > **macOS (Apple Silicon):** la compilación **no está firmada** (sin Apple Developer Program de pago), por lo que Gatekeeper
 > muestra una advertencia en el primer inicio. La aplicación está firmada de forma ad-hoc — ábrela una vez mediante **clic derecho → Abrir**, o ejecuta
